@@ -1,11 +1,11 @@
 
 # Assignment2-Azure-IaC
 
-This repository contains everything you need to deploy a fully functional CRUD app to Microsoft Azure using Infrastructure as Code (IaC). The setup is automated, allowing you to quickly deploy and run the app with minimal configuration. 
+This repository contains everything you need to deploy a fully functional CRUD app to Microsoft Azure using Infrastructure as Code. The setup is automated, allowing you to quickly deploy and run the app with minimal configuration. 
 
 ## Project Overview
 
-This project demonstrates how to deploy a Dockerized CRUD (Create, Read, Update, Delete) application to Azure using Azure Container Registry (ACR) and Azure Container Instances (ACI). It leverages Bicep templates for infrastructure provisioning and a Bash script to automate the entire deployment process.
+This project demonstrates how to deploy a Dockerized CRUD application to Azure using Azure Container Registry (ACR) and Azure Container Instances (ACI). It leverages Bicep templates for infrastructure provisioning and a Bash script to automate the entire deployment process.
 
 ### Key Components
 
@@ -13,6 +13,11 @@ This project demonstrates how to deploy a Dockerized CRUD (Create, Read, Update,
 - **acr.bicep**: Bicep template that provisions an Azure Container Registry (ACR) to store the Docker image.
 - **aci.bicep**: Bicep template that provisions an Azure Container Instance (ACI), along with an Application Gateway, Network Security Groups, Subnets, and a Public IP.
 - **deployment.sh**: A Bash script that automates the entire deployment process, executing the necessary Bicep deployments and Azure configurations.
+- **Design Diagram.png**: A Design is a very important component of a project.
+
+## Design Diagram
+![alt text](Design.png)
+
 
 ## Prerequisites
 
